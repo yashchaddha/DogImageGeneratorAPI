@@ -17,6 +17,7 @@ $('#get-image').click(function(e){
 });
 
 $('#next').click(function(event){
+    breed=dropdown.val();
     displayImage(breed);
 })
 
