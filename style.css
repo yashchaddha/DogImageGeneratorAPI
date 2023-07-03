@@ -1,0 +1,71 @@
+body{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    height: 90vh;
+    width: 80vw;
+    background-color: lightcoral;
+    display: flex;
+    flex-direction: column;
+}
+#user-input{
+    height: 30%;
+    width: 100%;
+    background-color: rgb(121, 121, 219);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#image-display{
+    height: 55%;
+    width: 100%;
+    background-color: rgb(121, 121, 219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#next-image{
+    height: 15%;
+    width: 100%;
+    background-color: rgb(121, 121, 219);
+    display: flex;
+    flex-direction: row-reverse;
+}
+#next-image button{
+    margin-top: 2%;
+    margin-right: 10%;
+    width: 7%;
+    height: 30%;
+    background-color: azure;
+    color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: cursive;
+    font-size: large;
+}
+#user-input select{
+    width: 100%;
+    height: 20%;
+    background-color: azure;
+    color: blue;
+    font-family: cursive;
+    font-size: large;
+    border: 2px solid black;
+}
+#user-input button{
+    width: 100%;
+    height: 20%;
+    background-color: azure;
+    color: blue;
+    font-family: cursive;
+    font-size: large;
+}
+#image-display img{
+    max-width: 100%;
+    max-height: 100%;
+    
+}
